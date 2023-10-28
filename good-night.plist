@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>de.kovah.timemachine-bedtime.good-night</string>
+        <key>Program</key>
+        <string>/usr/local/scripts/de.kovah.timemachine-bedtime/good-night.sh</string>
+        <key>StandardOutPath</key>
+        <string>/usr/local/scripts/de.kovah.timemachine-bedtime/activity.log</string>
+        <key>StandardErrorPath</key>
+        <string>/usr/local/scripts/de.kovah.timemachine-bedtime/activity.log</string>
+        <key>StartCalendarInterval</key>
+        <dict>
+            <key>Hour</key>
+            <integer>23</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </dict>
+</plist>
